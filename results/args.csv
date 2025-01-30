@@ -1,0 +1,33 @@
+device	cuda
+motions	18
+criteria	torch.nn.MSELoss
+path	./data/edge_rot_data.npy
+out_path	results
+truncation	1
+truncation_mean	4096
+ckpt	./data/MoDi_079999.pt
+simple_idx	0
+character	jasper
+type	sample
+sample_seeds	
+return_sub_motions	False
+no_idle	False
+interp_seeds	
+boundary_path	
+edit_radius	
+skeleton	True
+entity	Edge
+glob_pos	True
+joints_pool	False
+conv3	False
+conv3fast	True
+foot	True
+normalize	True
+axis_up	1
+use_velocity	True
+rotation_repr	quaternion
+latent	512
+n_frames_dataset	64
+n_inplace_conv	2
+n_mlp	8
+channel_multiplier	2
