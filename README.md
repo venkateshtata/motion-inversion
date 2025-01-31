@@ -2,6 +2,36 @@
 This repository contains the implementation and evaluation of an MLP-based inversion method for motion generation using the MoDi architecture. 
 Before running the train_mlp.py script, please ensure you have installed all dependencies and have teh pre-trained model files and data files within the /data directory as per the README_MoDi.md file.
 
+## Using Pre-Trained Encoder
+
+| Original Motion | Inversion Output |
+|----------------|----------------|
+| <img src="original_motion_inversion/motions/inversion/0_0_gt.gif" width="200"/> | <img src="original_motion_inversion/motions/inversion/0_0_inversion.gif" width="200"/> |
+
+| modified 20, 40, 60 in .npy | Inversion Output |
+|----------------|----------------|
+| <img src="modified_motion_inversion/motions/inversion/0_0_gt.gif" width="200"/> | <img src="modified_motion_inversion/motions/inversion/0_0_inversion.gif" width="200"/> |
+
+## Using Proposed MLP-based Inversion
+
+| Original Motion | Inversion Output |
+|----------------|----------------|
+| <img src="original_motion_inversion/motions/inversion/0_0_gt.gif" width="200"/> | <img src="generated_motions_mlp/0_motion_epoch_500.gif" width="200"/> |
+
+| modified 20, 40, 60 in .npy | Inversion Output |
+|----------------|----------------|
+| <img src="modified_motion_inversion/motions/inversion/0_0_gt.gif" width="200"/> | <img src="generated_motions_mlp_modified/0_motion_epoch_100.gif" width="200"/> |
+
+## Overall Inverion performance of MLP
+
+| Original Motion | Inversion Output |
+|----------------|----------------|
+| <img src="modified_motion_inversion/motions/inversion/0_11_gt.gif" width="200"/> | <img src="generated_motions_mlp_11/0_motion_epoch_1400.gif" width="200"/> |
+| <img src="modified_motion_inversion/motions/inversion/0_18_gt.gif" width="200"/> | <img src="generated_motions_mlp_18/0_motion_epoch_1600.gif" width="200"/> |
+| <img src="modified_motion_inversion/motions/inversion/0_1_gt.gif" width="200"/> | <img src="generated_motions_mlp_1/0_motion_epoch_4500.gif" width="200"/> |
+
+
+
 
 ## **Part 1: Motion Generation**
 
