@@ -4,11 +4,11 @@ Before running the train_mlp.py script, please ensure you have installed all dep
 
 ## Using Pre-Trained Encoder
 
-| Original Motion | Inversion Output |
+| Original Motion | Regenerated Output |
 |----------------|----------------|
 | <img src="original_motion_inversion/motions/inversion/0_0_gt.gif" width="200"/> | <img src="original_motion_inversion/motions/inversion/0_0_inversion.gif" width="200"/> |
 
-| modified 20, 40, 60 in .npy | Inversion Output |
+| modified 20, 40, 60 in .npy | Regenerated Output |
 |----------------|----------------|
 | <img src="modified_motion_inversion/motions/inversion/0_0_gt.gif" width="200"/> | <img src="modified_motion_inversion/motions/inversion/0_0_inversion.gif" width="200"/> |
 
