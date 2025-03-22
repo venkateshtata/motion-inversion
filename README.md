@@ -1,7 +1,3 @@
-# MockAI Take-Home Assessment
-This repository contains the implementation and evaluation of an MLP-based inversion method for motion generation using the MoDi architecture. 
-Before running the train_mlp.py script, please ensure you have installed all dependencies and have teh pre-trained model files and data files within the /data directory as per the README_MoDi.md file.
-
 ## Train the MLP with below script and params
 ```python3.10 train_mlp.py --ckpt ./data/MoDi_079999.pt --out_path mlp_inversion --target_idx 0 --path ./data/test_edge_rot_data.npy```
 
